@@ -13,7 +13,7 @@ const loading = document.querySelector('.status-loading');
 
 const errorHandler = new ErrorHandler(input);
 
-const baseUrl = 'multichat-backend-7ec32d97624b.herokuapp.com';
+const baseUrl = 'multichat-backend-e2d41ec56b81.herokuapp.com';
 
 const api = new API(`https://${baseUrl}`, modal, input, loading);
 api.connection();
